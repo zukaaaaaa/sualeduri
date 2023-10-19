@@ -1,0 +1,181 @@
+@media (width > 768px){
+    header{
+        column-gap: 474px;
+        padding-left: 25px;
+    }
+    .but1{
+        width: 175px;
+        height: 58px;
+        flex-shrink: 0;
+        color: #162542;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+    .box1{
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+    }
+    .box1txt{
+        margin-left: 40px;
+    }
+    .keyboard{
+        margin-left: 26px;
+    }
+    .keyboard2{
+        display: none;
+    }
+    .keyboard3{
+        display: none;
+    }
+    .keb2{
+        display: block;
+        border-radius: 20px;
+        background: #F16718;
+    }
+    .kb3{
+        display: block;
+        border-radius: 20px;
+        background: #D8D8D8;
+    }
+    .imgbox1{
+        margin-top: 20px;
+        column-gap: 40px;
+    }
+    .box2txt{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        text-align: start;
+        column-gap: 36px;
+        margin-left: 20px;
+    }
+    h3{
+        width: 255px;
+        font-size: 32px;
+        line-height: 36px;
+    }
+    h4{
+        margin-top: 10px;
+        width: 398px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .texts{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 70px;
+        align-items: start;
+        justify-content: start;
+        margin-left: -30px;
+        margin-top: 170px;  
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+    }
+    h5{
+        width: 200px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    h6{
+        width: 281px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    b{
+        margin-top: 140px;
+    }
+}
+
+@media (width >1440px){
+    header{
+        padding-top: 70px;
+        padding-left: 200px;
+        padding-right: 165px;
+        column-gap: 900px;
+    }
+    .bu1{
+    }
+    .container{
+        background-image: url(./assets/desktopback1.svg) , url(./assets/desktopback2.svg);
+        background-repeat: no-repeat;
+        background-position: 101.5% 11.5% , 0 51%;
+    }
+    .box1{
+        display: flex;
+        flex-direction: row;
+        column-gap: 235px;
+    }
+    h1{
+        width: 445px;
+        font-size: 56px;
+        line-height: 56px;
+    }
+    h2{
+        width: 445px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .but2{
+        width: 175px;
+        height: 58px;
+        flex-shrink: 0;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .keyboard{
+        width: 415px;
+        height: 380px;
+        flex-shrink: 0;
+        border-radius: 20px;
+    }
+    .box2{
+        display: flex;
+        flex-direction: row;
+        column-gap: 100px;
+    }
+    .box2txt{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+    }
+    h3{
+        width: 255px;
+        font-size: 32px;
+        line-height: 36px; 
+    }
+    h4{
+        width: 255px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .keb2{
+        width: 255px;
+        height: 460px;
+        flex-shrink: 0;
+    }
+    .texts{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 30px;
+        margin-left:30px;
+    }
+    h5{
+        width: 200px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    h6{
+        width: 255px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
